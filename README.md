@@ -29,6 +29,7 @@ Para este laboratorio se utilizó VirtualBox y una máquina virtual con sistema 
 Antes de comenzar las prácticas se configuró la interfaz de red de la máquina virtual utilizando el modo NAT (Network Address Translation).
 
 **Evidencia:**
+
 ![1 Prueba Windows RED NAT](Capturas/1%20Prueba%20Windows%20RED%20NAT.png)
 
 La configuración se realizó desde: VirtualBox → Configuración → Red → Adaptador 1 → Conectado a: NAT
@@ -48,6 +49,7 @@ Creación de un usuario estándar
 Como medida de seguridad se creó un usuario destinado a las prácticas con permisos estándar, separado de la cuenta administrativa.
 
 Evidencia:
+
 ![2 Prueba Windows Usuario estandar](Capturas/2%20Prueba%20Windows%20Usuario%20estandar.png)
 
 El objetivo de utilizar una cuenta sin privilegios administrativos para las actividades habituales es aplicar el principio de mínimo privilegio.
@@ -63,6 +65,7 @@ La cuenta administrativa queda reservada para tareas que realmente requieran pri
 Se verificó el estado de actualización del sistema operativo mediante Windows Update.
 
 **Evidencia:**
+
 ![4 prueba windows actualizado](Capturas/4%20prueba%20windows%20actualizado.png)
 
 
@@ -81,6 +84,7 @@ El Snapshot fue denominado:
 Clean Install - Hardening applied
 
 **Evidencia:**
+
 ![3 prueba Windows snapshot](Capturas/3%20prueba%20Windows%20snapshot.png)
 
 
@@ -89,6 +93,7 @@ Clean Install - Hardening applied
 En Linux se crea un usuario estándar para utilizar en el día a día, sin permisos de administrador (Root). Esto evita modificar archivos del sistema por error y limita los daños si alguna herramienta o programa se ve comprometido; solo se usa el permiso de super usuario con sudo cuando sea necesario para tareas de configuración o actualización.
 
 **Evidencia:**
+
 ![7 Prueba Linux Usuario limitado](Capturas/7%20Prueba%20Linux%20Usuario%20limitado.png)
 
 
@@ -101,6 +106,7 @@ Comprobación de permisos mediante ls -l
 Como parte de la práctica se utilizó la terminal para crear un archivo y posteriormente visualizar sus permisos mediante el comando: ls -l
 
 **Evidencia:**
+
 ![6 prueba Linux permisos](Capturas/6%20prueba%20Linux%20permisos.png)
 
 
@@ -119,6 +125,7 @@ También se utilizó la terminal para consultar la disponibilidad de actualizaci
 sudo apt update
 
 **Evidencia:**
+
 ![8 Prueba Linux actualizado](Capturas/8%20Prueba%20Linux%20actualizado.png)
 
 
@@ -139,6 +146,7 @@ El Snapshot fue denominado:
 Clean Install - Hardening applied
 
 **Evidencia:**
+
 ![9 Prueba Linux Snapshot](Capturas/9%20Prueba%20Linux%20Snapshot.png)
 
 
